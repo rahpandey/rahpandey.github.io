@@ -3,7 +3,7 @@ var constraints = { video: { facingMode: "environment" }, audio: false };
 var track = null;
 
 // Define constants
-const cameraView = document.querySelector("#camera--view"),
+const cameraView = document.querySelector("environment"),
     cameraOutput = document.querySelector("#camera--output"),
     cameraSensor = document.querySelector("#camera--sensor"),
     cameraTrigger = document.querySelector("#camera--trigger");
